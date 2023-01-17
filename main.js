@@ -1,3 +1,5 @@
+let averageDiv = document.getElementById("result");
+
 document.addEventListener("DOMContentLoaded", function (event) {
 
     document.getElementById("button1").addEventListener("click", function () {
@@ -6,11 +8,8 @@ document.addEventListener("DOMContentLoaded", function (event) {
         let num2 = parseInt(document.getElementById("num2").value);
         let num3 = parseInt(document.getElementById("num3").value);
         let averageNum = (num1 + num2 + num3)/3;
-
-        let averageDiv = document.getElementById("result");
-        averageDiv.textContent = averageNum;
-        averageDiv.style.backgroundColor = "blue";
-        
+     
+        averageDiv.textContent = (Math.round(averageNum * 100) / 100).toFixed(2);
     });
 });
 
