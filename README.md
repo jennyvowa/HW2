@@ -1,6 +1,8 @@
 # HW2
 
-## Authors: Hoa Vo, Misako Ueshima
+## Authors: 
+
+Hoa Vo, Misako Ueshima
 
 ## Project Description
 
